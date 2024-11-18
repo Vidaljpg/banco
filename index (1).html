@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANCOOP</title>
+    <link href='style.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>BANCOOP</h1>
+            <p>Te ayuda a alcanzar tus metas</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Créditos</a></li>
+                <li><a href="#">Leasing</a></li>
+                <li><a href="#">Ahorros</a></li>
+                <li><a href="#">Servicio al cliente</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <div class="login-form">
+            <h2>Ingresa a tu cuenta</h2>
+            <form>
+                <label for="cuenta">Cuenta:</label>
+                <input type="text" id="cuenta" name="cuenta">
+
+                <label for="tipo">Tipo:</label>
+                <select id="tipo" name="tipo">
+                    <option value="personal">Personal</option>
+                    <option value="empresarial">Empresarial</option>
+                    <option value="Ahorro">Ahorro</option>
+                </select>
+
+                <label for="clave">Clave:</label>
+                <input type="password" id="clave" name="clave">
+
+                <button type="submit">Ingresar</button>
+            </form>
+        </div>
+
+        <div class="transaction-links">
+            <h3>Transacciones</h3>
+            <ul>
+                <li><a href="#">*Banca personal</a></li>
+                <li><a href="#">*Banca empresarial</a></li>
+                <li><a href="#">*Banca seguros</a></li>
+                <li><a href="#">*Pago de facturas</a></li>
+            </ul>
+
+            <h3>Tarjetas de Crédito</h3>
+            <ul>
+                <li><a href="#">*Credi Visa</a></li>
+                <li><a href="#">*Credi Mastercard</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="product">
+            <h3>Solicita nuestros productos</h3>
+            <p>Tarjeta de crédito con los mejores beneficios.</p>
+            <img src="src/credito.png" alt="Tarjeta de crédito" class="centrar-imagen">
+        </div>
+        <div class="product">
+            <h3>Ahorro Estudiantil</h3>
+            <p>Cuenta especial para estudiantes con beneficios exclusivos.</p>
+            <img src="src/edu.png" alt="Cuenta de ahorro"class="centrar-imagen">
+        </div>
+        <div class="product">
+            <h3>Crédito Vehículos</h3>
+            <p>Financiamiento de vehículos con tasas competitivas.</p>
+            <img src="src/carro.png" alt="Crédito de vehículo"class="centrar-imagen">
+        </div>
+        <div class="product">
+            <h3>Crédito Hipotecario</h3>
+            <p>Préstamos hipotecarios para la casa de tus sueños.</p>
+            <img src="src/casa.png" alt="Crédito hipotecario"class="centrar-imagen">
+        </div>
+    </section>
+
+    <footer>
+        <p>Contáctenos: Línea gratuita 018000-00001</p>
+        <p>Banco entidad financiera - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
